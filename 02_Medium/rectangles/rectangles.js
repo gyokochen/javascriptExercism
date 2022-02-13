@@ -3,9 +3,9 @@
 // convenience to get you started writing code faster.
 //
 
-let findRegConer = (input) => input === "+";
-let findRowConnet = (input) => input === "-";
-let findColConnect = (input1, input2) => input1 === "|" && input2 === "|" || input1 === "+" && input2 === "|" || input1 === "|" && input2 === "+";
+const findRegConer = (input) => input === "+";
+const findRowConnet = (input) => input === "-";
+const findColConnect = (input1, input2) => input1 === "|" && input2 === "|" || input1 === "+" && input2 === "|" || input1 === "|" && input2 === "+";
 
 export function count(array)
 {
